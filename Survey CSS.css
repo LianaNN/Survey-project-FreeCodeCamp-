@@ -1,0 +1,81 @@
+body {
+    background-color: cadetblue;
+}
+
+div {
+    width: 1300px;
+    border: 15px solid white;
+    padding: 0;
+    margin: auto;
+    background-color: white;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  h2 {
+      font-weight: normal;
+      text-align: center;
+  }
+
+ .surveyFields {
+     text-align: center;
+ } 
+
+p {
+    margin: 0;
+}
+
+
+ #roleField {
+text-align: left;
+ }
+
+ #definitely {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#definitely:checked {
+    background-color: gray;
+}
+
+#maybe {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#definitely:maybe {
+    background-color: gray;
+}
+
+#notSure {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#definitely:notSure {
+    background-color: gray;
+}

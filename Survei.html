@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="Survey CSS.css">
+<script src=""></script>
+<body>
+
+ <h1>Survey form</h1>
+
+ <div class=surveyFields>
+    <h2>Let us know how we can improve FreeCodeCamp</h2>
+
+        <label> * Name </label> &nbsp; <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        </br>
+        <label> * Email </label> &nbsp; <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+        <br>
+        </br>
+        <label for="number"> &nbsp; &nbsp;* Age </label> &nbsp; <input id="number" name="number" placeholder="Age" required>    
+
+        <br>
+        </br>
+        <form id=roleField>
+            <label for="role"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; What option best describes your current role? </label> 
+            <select name="roles" id="roles">
+              <option placeholder="student">Student</option>
+              <option placeholder="half time employee">Half time employee</option>
+              <option placeholder="full time employee">Full time employee </option>
+            </select>
+          <br>
+          </br>
+            <label id="recommend"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;* How likely is that you would recommend FreeCodeCamp to a friend? </label>
+
+            <input type="checkbox" id="definitely" name="definitely" value="Definitely">
+            <label for="definitely"> Definitely</label>
+
+            <input type="checkbox" id="maybe" name="maybe" value="Maybe">
+            <label for="maybe"> Maybe</label>
+
+            <input type="checkbox" id="notSure" name="notSure" value="Not sure">
+            <label for="notSure"> Not sure</label>
+            
+          </form>
+</div>
+
+</body>
+</html>
